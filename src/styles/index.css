@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+}
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+.primary-color {
+    background-color: #4497fc;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 180px;
+}
+
+.logo-text {
+  padding: 0px 10px;
+}
+
+.all-applications{
+  background-color: rgba(203, 202, 202, 0.59);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  padding: 15px 180px;
+}
+
+.app-item{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+}
